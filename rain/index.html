@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <title>WRF forecast</title>
+</head>
+<body>
+
+<div class="slideshow-container" id="slideshow-container"></div>
+<br>
+<div style="text-align:center" id="dot-container"></div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+<!-- Define the text file names in data attributes -->
+<script>
+    const imageFiles = {
+        file1: 'd01_wrfout',
+        file2: 'd02_wrfout'
+    };
+</script>
+
+<script src="main.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
